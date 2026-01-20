@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA4D096B2DD6283900EFDC9E /* VideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4D09682DD6283900EFDC9E /* VideoModel.m */; };
+		AA4D096C2DD6283900EFDC9E /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4D096A2DD6283900EFDC9E /* VideoViewController.m */; };
+		AA4D096D2DD6283900EFDC9E /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4D09662DD6283900EFDC9E /* VideoCell.m */; };
+		AA4D09702DD6292800EFDC9E /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4D096F2DD6292800EFDC9E /* WelcomeViewController.m */; };
+		AA4D09752DD62BE000EFDC9E /* GUX.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4D09742DD629E000EFDC9E /* GUX.m */; };
+		OTH00000000000000BASSETS /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = OTH000000000000000ASSETS /* Assets.xcassets */; };
+		SRC000000000000000000B01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = SRC000000000000000000M01 /* main.m */; };
+		SRC000000000000000000B02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = SRC000000000000000000M02 /* AppDelegate.m */; };
+		SRCCMN000000000000000B01 /* Styles.m in Sources */ = {isa = PBXBuildFile; fileRef = SRCCMN000000000000000M01 /* Styles.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000000000000000000README /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		AA4D09652DD6283900EFDC9E /* VideoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
+		AA4D09662DD6283900EFDC9E /* VideoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
+		AA4D09672DD6283900EFDC9E /* VideoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoModel.h; sourceTree = "<group>"; };
+		AA4D09682DD6283900EFDC9E /* VideoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoModel.m; sourceTree = "<group>"; };
+		AA4D09692DD6283900EFDC9E /* VideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		AA4D096A2DD6283900EFDC9E /* VideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		AA4D096E2DD6292800EFDC9E /* WelcomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		AA4D096F2DD6292800EFDC9E /* WelcomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		AA4D09732DD629E000EFDC9E /* GUX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUX.h; sourceTree = "<group>"; };
+		AA4D09742DD629E000EFDC9E /* GUX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUX.m; sourceTree = "<group>"; };
+		OTH00000000000000000INFO /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		OTH000000000000000ASSETS /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		PRD000000000000000000APP /* kidtok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kidtok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		SRC000000000000000000H02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		SRC000000000000000000M01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		SRC000000000000000000M02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		SRCCMN000000000000000H01 /* Styles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Styles.h; sourceTree = "<group>"; };
+		SRCCMN000000000000000M01 /* Styles.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Styles.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FWK00000000000000000000B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000000000000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				SRC000000000000000000000 /* Sources */,
+				OTH000000000000000000000 /* Others */,
+				VDR000000000000000000000 /* Vendors */,
+				FWK000000000000000000000 /* Frameworks */,
+				PRD000000000000000000000 /* Products */,
+				000000000000000000README /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		AA4D09712DD629C100EFDC9E /* GUX */ = {
+			isa = PBXGroup;
+			children = (
+				AA4D09722DD629C900EFDC9E /* Common */,
+			);
+			path = GUX;
+			sourceTree = "<group>";
+		};
+		AA4D09722DD629C900EFDC9E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AA4D09732DD629E000EFDC9E /* GUX.h */,
+				AA4D09742DD629E000EFDC9E /* GUX.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FWK000000000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		OTH000000000000000000000 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				OTH000000000000000ASSETS /* Assets.xcassets */,
+				OTH00000000000000000INFO /* Info.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		PRD000000000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				PRD000000000000000000APP /* kidtok.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		SRC000000000000000000000 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				SRCCMN000000000000000000 /* Common */,
+				SRC0VC000000000000000000 /* VC */,
+				AA4D09652DD6283900EFDC9E /* VideoCell.h */,
+				AA4D09662DD6283900EFDC9E /* VideoCell.m */,
+				AA4D09672DD6283900EFDC9E /* VideoModel.h */,
+				AA4D09682DD6283900EFDC9E /* VideoModel.m */,
+				SRC000000000000000000H02 /* AppDelegate.h */,
+				SRC000000000000000000M02 /* AppDelegate.m */,
+				SRC000000000000000000M01 /* main.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		SRC0VC000000000000000000 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				SRC0VCCMN000000000000000 /* Common */,
+				AA4D096E2DD6292800EFDC9E /* WelcomeViewController.h */,
+				AA4D096F2DD6292800EFDC9E /* WelcomeViewController.m */,
+				AA4D09692DD6283900EFDC9E /* VideoViewController.h */,
+				AA4D096A2DD6283900EFDC9E /* VideoViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		SRC0VCCMN000000000000000 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		SRCCMN000000000000000000 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				SRCCMN000000000000000H01 /* Styles.h */,
+				SRCCMN000000000000000M01 /* Styles.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		VDR000000000000000000000 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				AA4D09712DD629C100EFDC9E /* GUX */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		TGT000000000000000000001 /* kidtok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD1D9492B94F3000023ACDB /* Build configuration list for PBXNativeTarget "kidtok" */;
+			buildPhases = (
+				SRC00000000000000000000B /* Sources */,
+				FWK00000000000000000000B /* Frameworks */,
+				AAD1D92E2B94F2FE0023ACDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kidtok;
+			packageProductDependencies = (
+			);
+			productName = kidtok;
+			productReference = PRD000000000000000000APP /* kidtok.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAD1D9282B94F2FE0023ACDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					TGT000000000000000000001 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = AAD1D92B2B94F2FE0023ACDB /* Build configuration list for PBXProject "Kidtok" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000000000000000000000000;
+			packageReferences = (
+				FSCALENDAR000000000000PR /* XCLocalSwiftPackageReference "Vendors/FSCalendar-2.8.3" */,
+				DSFSPARKLINE0000000000PR /* XCLocalSwiftPackageReference "Vendors/DSFSparkline-6.0.2" */,
+				DGCHARTS00000000000000PR /* XCLocalSwiftPackageReference "Vendors/Charts-5.1.0" */,
+				ACTIONSHEETPICKER00000PR /* XCLocalSwiftPackageReference "Vendors/ActionSheetPicker-3.0-2.7.4" */,
+			);
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				TGT000000000000000000001 /* kidtok */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAD1D92E2B94F2FE0023ACDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				OTH00000000000000BASSETS /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		SRC00000000000000000000B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4D09752DD62BE000EFDC9E /* GUX.m in Sources */,
+				SRC000000000000000000B01 /* main.m in Sources */,
+				SRC000000000000000000B02 /* AppDelegate.m in Sources */,
+				SRCCMN000000000000000B01 /* Styles.m in Sources */,
+				AA4D096B2DD6283900EFDC9E /* VideoModel.m in Sources */,
+				AA4D096C2DD6283900EFDC9E /* VideoViewController.m in Sources */,
+				AA4D09702DD6292800EFDC9E /* WelcomeViewController.m in Sources */,
+				AA4D096D2DD6283900EFDC9E /* VideoCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AAD1D9472B94F3000023ACDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AAD1D9482B94F3000023ACDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAD1D94A2B94F3000023ACDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6X9G3CYFJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					Vendors,
+					Sources,
+					"Vendors/Toast-4.1.1",
+					"Vendors/iCarousel-1.8.3/iCarousel",
+				);
+				INFOPLIST_FILE = Others/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "娃儿看的";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.doublegsoft.kidtok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAD1D94B2B94F3000023ACDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6X9G3CYFJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					Vendors,
+					Sources,
+					"Vendors/Toast-4.1.1",
+					"Vendors/iCarousel-1.8.3/iCarousel",
+				);
+				INFOPLIST_FILE = Others/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "娃儿看的";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.doublegsoft.kidtok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAD1D92B2B94F2FE0023ACDB /* Build configuration list for PBXProject "Kidtok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD1D9472B94F3000023ACDB /* Debug */,
+				AAD1D9482B94F3000023ACDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD1D9492B94F3000023ACDB /* Build configuration list for PBXNativeTarget "kidtok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD1D94A2B94F3000023ACDB /* Debug */,
+				AAD1D94B2B94F3000023ACDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		ACTIONSHEETPICKER00000PR /* XCLocalSwiftPackageReference "Vendors/ActionSheetPicker-3.0-2.7.4" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "Vendors/ActionSheetPicker-3.0-2.7.4";
+		};
+		DGCHARTS00000000000000PR /* XCLocalSwiftPackageReference "Vendors/Charts-5.1.0" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "Vendors/Charts-5.1.0";
+		};
+		DSFSPARKLINE0000000000PR /* XCLocalSwiftPackageReference "Vendors/DSFSparkline-6.0.2" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "Vendors/DSFSparkline-6.0.2";
+		};
+		FSCALENDAR000000000000PR /* XCLocalSwiftPackageReference "Vendors/FSCalendar-2.8.3" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "Vendors/FSCalendar-2.8.3";
+		};
+/* End XCLocalSwiftPackageReference section */
+	};
+	rootObject = AAD1D9282B94F2FE0023ACDB /* Project object */;
+}
